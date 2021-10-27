@@ -1,0 +1,74 @@
+.text-white {
+    color: #fff;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.bg {
+    background-image: url(background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.address {
+    padding-left: 20px;
+    padding-top: 10%;
+
+}
+
+.address input {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    display: block;
+}
+
+.address button {
+    background: #1E1E1E;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.float {
+    display: flex;
+    justify-content: right;
+}
+
+.MuiIconButton-label {
+    color: #FF9432;
+}
+
+.jumboBowl,
+.mediumBowl,
+.littleBowl {
+    height: 60vh;
+}
+
+
+
+@media (min-width:320px) {
+
+    /* smartphones, iPhone, portrait 480x320 phones */
+
+}
+
+@media (min-width:641px) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
